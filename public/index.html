@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="handler.js"></script>
+  </head>
+  <body>
+    <div id="intro">
+      <h1 id="intro-h1">The Economist bug</h1>
+      <p id="intro-content">
+        Visualizing the bug which makes the articles visible to non-subscribers.
+      </p>
+      <form id="form-01" onsubmit="processClick(event);return false">
+        <input
+          type="text"
+          id="url"
+          name="url"
+          required="true"
+          size="60"
+          placeholder="Paste article URL"
+        />
+        <input type="submit" value="Find Article" id="button" />
+      </form>
+    </div>
+    <div id="article-view"></div>
+  </body>
+</html>

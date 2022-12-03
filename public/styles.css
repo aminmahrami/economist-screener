@@ -1,0 +1,65 @@
+html {
+  font-family: "MiloTE", "MiloTESec", Charter, "Bitstream Charter",
+    "Iowan Old Style", "Calisto MT", serif;
+}
+
+@font-face {
+  font-family: "MiloTE";
+  src: url("https://cdn.design-system.economist.com/assets/5.94.1/common/static/fonts/milo-primary-subset-rg.woff2")
+    format("woff2");
+  font-style: normal;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro-h1 {
+  margin-top: 5%;
+  margin-bottom: 0px;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+input {
+  margin-top: 1rem;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+  margin-bottom: 5%;
+}
+input:focus {
+  border: #0365d626;
+  outline: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#button {
+  font-family: "MiloTE";
+  border-radius: 0px;
+  color: white;
+  background-color: #e3120c;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+#button:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #a9b0ae35;
+}
