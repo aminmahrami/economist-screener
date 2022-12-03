@@ -26,7 +26,7 @@ async function getArticle(req: Request, res: Response) {
   }
   if (!url.includes("https://www.economist.com/")) {
     set404Status(res);
-    res.send("Sorry, only Economics URLs are valid here :p");
+    res.send("Sorry, only Economist URLs are valid here :p");
     return;
   }
   const fetchRes = await fetch(url);
