@@ -10,4 +10,4 @@ This software is provided as demonstration and is educational purpose only.
 1. Install dependencies and start server
 ```$ yarn && yarn start:ts```
 2. Open `http://localhost:3000`
-3. Paste an Economist article and search
+3. Paste an Economist article link and hit `Search`
